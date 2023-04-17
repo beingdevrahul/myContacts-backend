@@ -3,6 +3,11 @@ myContacts backend is basically a project to save the contacts of different user
 
 first you have to install all the node modules by run the command 
 # npm insall
-then you have to create a dotenv file .env
+then you have to create a dotenv file .env and initialize the variables 
+
+PORT=8080
+CONNECTION_STRING=YOUR CONNECTION STRING FOR MONGO DB
+ACCESS_TOKEN_SECRET= INITIALIZE SOME SECRET FOR JWT ACCESS TOKEN
+
 then run the command 
 # nodemon server.js
